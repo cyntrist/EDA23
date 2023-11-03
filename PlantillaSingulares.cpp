@@ -5,10 +5,9 @@
 #include "bintree_eda.h"
 using namespace std;
 
-
 template <class T>
 int singulares(bintree<T> const& tree){
-    ...
+    
 }
 
 
