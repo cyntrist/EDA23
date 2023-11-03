@@ -17,7 +17,10 @@ void resuelveCaso() {
     // leer los datos de la entrada
     bintree<int> tree;
     tree = leerArbol(-1);
-    cout << tree << endl;
+    if(!tree.empty())
+        cout << tree.root() << endl;
+    else
+        cout << "Arbol vacio." << endl;
 }
 
 
